@@ -1,0 +1,21 @@
+﻿body {
+    height: 100%;
+    display: -ms-grid;
+    -ms-grid-columns: 100%;
+    -ms-grid-rows: 50px 1fr 50px;
+}
+
+#header {
+    background-color: cadetblue;
+    -ms-grid-row: 1;
+}
+
+#content {
+    background-color: darkslategray;
+    -ms-grid-row:2;
+}
+
+#footer {
+    background-color: darkseagreen;
+    -ms-grid-row: 3;
+}
